@@ -1,3 +1,4 @@
+# KMP
 def strStr(string, pattern):
     if pattern == None or len(pattern) == 0:
         return string
