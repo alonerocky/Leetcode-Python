@@ -1,22 +1,20 @@
+#from sets import Set
 def threeSum(num):
-    result = [[]]
+    result = []
     if num == None or len(num) <= 2:
         return result
     num.sort()
-    i = 0
-    j = i + 1
-    k = len(num) - 1
+    s = set()
     for i in range(0,len(num)):
         j = i+1
         k = len(num) -1
         while j < k:
             target = num[i] + num[j] + num[k]
             if target == 0:
-                one = []
-                one.append(num[i])
-                one.append(num[j])
-                one.append(num[k])
-                result.append(one)
+                t = (num[i],num[j],num[k])
+                if t not in s:
+                    s.add(t)
+                    result.append(list(t))
                 j += 1
                 k -= 1
             elif target < 0:
