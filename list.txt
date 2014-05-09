@@ -1,0 +1,5 @@
+1, strStr
+2, sortColor
+3, 3sum
+4, two sum
+5, search for a range
