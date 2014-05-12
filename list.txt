@@ -3,3 +3,7 @@
 3, 3sum
 4, two sum
 5, search for a range
+6, search-a-2d-matrix
+next
+Search in Rotated Sorted Array
+Search in Rotated Sorted Array II
