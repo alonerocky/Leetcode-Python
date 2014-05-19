@@ -12,3 +12,6 @@ Search in Rotated Sorted Array II
 Rotate Image
 Remove Element
 Remove Duplicates from Sorted Array
+Spiral Matrix
+Anagrams
+Count and Say
