@@ -16,8 +16,11 @@ def countAndSay(n):
 
 def sayOneNumber(num):
     length = len(num)
+    print('length '+str(length))
     result = ''
-    for i in range(0,length):
+    i = 0
+    while i < length:
+        print('i = '+str(i))
         j = i
         count = 0
         while j < length and num[j] == num[i]:
@@ -26,9 +29,10 @@ def sayOneNumber(num):
         result += str(count)
         result += num[i]
         i = j
+        #print('2i = '+str(i))
         if i >= length:
             break
     #print(result)
     return result
 print(sayOneNumber('111221'))
-#print(countAndSay(6))
+print(countAndSay(2))
