@@ -8,6 +8,8 @@
 8, Roman to Integer
 9, Integer to Roman
 10, Count and Say
+11, Evaluate Reverse Polish Notation
+12, Valid Parentheses
 next
 Search in Rotated Sorted Array II
 Rotate Image
@@ -15,4 +17,7 @@ Remove Element
 Remove Duplicates from Sorted Array
 Spiral Matrix
 Anagrams
-Evaluate Reverse Polish Notation
+
+Palindrome Number
+Add Two Numbers
+
