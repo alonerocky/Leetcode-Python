@@ -12,9 +12,12 @@
 12, Valid Parentheses
 13, Plus One
 14, Balanced Binary Tree
+15, Balanced Binary Tree
+16, Same Tree
 
 next
-Balanced Binary Tree
+Symmetric Tree
+
 Search in Rotated Sorted Array II
 Rotate Image
 Remove Element
