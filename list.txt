@@ -10,10 +10,10 @@
 10, Count and Say
 11, Evaluate Reverse Polish Notation
 12, Valid Parentheses
+
 13, Plus One
 14, Balanced Binary Tree
-15, Balanced Binary Tree
-16, Same Tree
+15, Same Tree
 
 next
 Symmetric Tree
