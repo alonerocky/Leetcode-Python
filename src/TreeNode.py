@@ -34,3 +34,28 @@ class TreeNode(object):
             return p.val == q.val and self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)
         else:
             return False
+    def flatten(self, root):
+        if root == None:
+            return
+        self.flatten(root.left)
+        self.flatten(root.right)
+        if root.left == None:
+            return
+        else:
+            p = root.left
+            while p.right != None:
+                p = p.right
+            p.right = root.right
+            root.right = root.left
+            root.left = None
+            return
+
+
+root =  TreeNode(1)
+left = TreeNode(2)
+right = TreeNode(3)
+root.left = left
+root.right =right
+root.flatten(root)
+
+
