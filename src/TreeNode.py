@@ -51,11 +51,5 @@ class TreeNode(object):
             return
 
 
-root =  TreeNode(1)
-left = TreeNode(2)
-right = TreeNode(3)
-root.left = left
-root.right =right
-root.flatten(root)
 
 
