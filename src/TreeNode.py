@@ -51,5 +51,19 @@ class TreeNode(object):
             return
 
 
+    def sortedArrayToBST(self, num):
+        if num == None or len(num) == 0:
+            return None
+        return self.sortedArrayToBST_helper(num,0,len(num)-1)
+
+    def sortedArrayToBST_helper(self,num,start,end):
+        if num == None or len(num) == 0 or start > end:
+            return None
+        middle = (start + end) //2
+        result = TreeNode(num[middle])
+        result.left = self.sortedArrayToBST_helper(num,start,middle-1)
+        result.right = self.sortedArrayToBST_helper(num,middle + 1, end)
+        return result
+
 
 
