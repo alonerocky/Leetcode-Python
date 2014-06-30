@@ -1,5 +1,5 @@
 1, strStr
-2, sortColor
+2, Sort Colors
 3, 3sum
 4, two sum
 5, search for a range
@@ -17,10 +17,16 @@
 16, Flatten Binary Tree to Linked List
 17, Maximum Subarray
 18, Convert Sorted Array to Binary Search Tree
+19, Construct Binary Tree from Inorder and Postorder Traversal
+20, Construct Binary Tree from Preorder and Inorder Traversal
+
 
 next
+Binary Tree Postorder Traversal
+Binary Tree Preorder Traversal
 Symmetric Tree
 Anagrams
+
 
 Search in Rotated Sorted Array II
 Rotate Image
@@ -34,13 +40,11 @@ Add Two Numbers
 
 
 Reverse Words in a String
-Evaluate Reverse Polish Notation    2013-11-27  19.6%
 Max Points on a Line    2013-11-22  10.6%
 Sort List   2013-11-16  19.9%
 Insertion Sort List 2013-11-12  24.7%
 LRU Cache   2013-11-09  13.2%
-Binary Tree Postorder Traversal 2013-11-07  30.8%
-Binary Tree Preorder Traversal  2013-11-05  34.9%
+
 Reorder List    2013-11-02  19.8%
 Linked List Cycle II    2013-10-30  30.5%
 Linked List Cycle   2013-10-28  35.1%
@@ -78,8 +82,7 @@ Balanced Binary Tree    2012-10-08  32.1%
 Convert Sorted List to Binary Search Tree   2012-10-02  26.8%
 
 Binary Tree Level Order Traversal II    2012-10-01  30.9%
-Construct Binary Tree from Inorder and Postorder Traversal  2012-09-30  26.1%
-Construct Binary Tree from Preorder and Inorder Traversal   2012-09-30  25.9%
+
 Maximum Depth of Binary Tree    2012-09-29  43.3%
 Binary Tree Zigzag Level Order Traversal    2012-09-28  26.3%
 Binary Tree Level Order Traversal   2012-09-28  30.5%
@@ -109,7 +112,7 @@ Word Search 2012-04-18  19.5%
 Subsets 2012-04-18  27.3%
 Combinations    2012-04-18  30.0%
 Minimum Window Substring    2012-04-15  17.5%
-Sort Colors 2012-04-08  31.2%
+
 
 Set Matrix Zeroes   2012-04-05  30.3%
 Edit Distance   2012-04-04  24.8%
@@ -164,7 +167,7 @@ Reverse Nodes in k-Group    2012-02-15  24.8%
 Swap Nodes in Pairs 2012-02-14  31.9%
 Merge k Sorted Lists    2012-02-13  22.9%
 Generate Parentheses    2012-02-12  30.9%
-Valid Parentheses   2012-01-30  27.7%
+
 Remove Nth Node From End of List    2012-01-27  29.4%
 Letter Combinations of a Phone Number   2012-01-26  25.9%
 4Sum    2012-01-26  21.4%
