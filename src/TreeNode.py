@@ -147,6 +147,20 @@ class TreeNode(object):
         result.right = self.buildTree_preorder_inorder_helper(preorder, pindex + 1, pend, inorder, index + 1, iend)
         return result
 
+    def preorderTraversal(self, root):
+        if root == None:
+            return []
+        stack = []
+        stack.append(root)
+        result = []
+        while len(stack) > 0:
+            top = stack.pop()
+            result.append(top.val)
+            if top.right != None:
+                stack.append(top.right)
+            if top.left != None:
+                stack.append(top.left)
+        return result
 inorder = [1,2]
 postorder = [2,1]
 root = TreeNode(0)
