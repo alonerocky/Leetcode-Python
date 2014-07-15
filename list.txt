@@ -21,10 +21,19 @@
 21, Binary Tree Preorder Traversal
 
 next
-Binary Tree Postorder Traversal
+Minimum Depth of Binary Tree
+Maximum Depth of Binary Tree
+
+
 Longest Consecutive Sequence
 Symmetric Tree
 Anagrams
+
+Binary Tree Postorder Traversal
+Binary Tree Inorder Traversal
+Binary Tree Zigzag Level Order Traversal
+Binary Tree Level Order Traversal
+Binary Tree Level Order Traversal II
 
 
 Search in Rotated Sorted Array II
@@ -76,15 +85,13 @@ Distinct Subsequences   2012-10-18  24.2%
 
 Path Sum II 2012-10-14  27.2%
 Path Sum    2012-10-13  30.0%
-Minimum Depth of Binary Tree    2012-10-09  29.0%
-Balanced Binary Tree    2012-10-08  32.1%
+
 Convert Sorted List to Binary Search Tree   2012-10-02  26.8%
 
-Binary Tree Level Order Traversal II    2012-10-01  30.9%
 
-Maximum Depth of Binary Tree    2012-09-29  43.3%
-Binary Tree Zigzag Level Order Traversal    2012-09-28  26.3%
-Binary Tree Level Order Traversal   2012-09-28  30.5%
+
+
+
 Symmetric Tree  2012-09-23  31.8%
 Same Tree   2012-09-03  41.6%
 Recover Binary Search Tree  2012-09-01  22.8%
@@ -92,7 +99,7 @@ Validate Binary Search Tree 2012-08-31  25.4%
 Interleaving String 2012-08-30  18.7%
 Unique Binary Search Trees II   2012-08-27  26.7%
 Unique Binary Search Trees  2012-08-27  35.7%
-Binary Tree Inorder Traversal   2012-08-27  34.9%
+
 Restore IP Addresses    2012-08-07  20.1%
 Reverse Linked List II  2012-06-27  25.8%
 Subsets II  2012-06-25  26.7%

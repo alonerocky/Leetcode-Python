@@ -161,8 +161,53 @@ class TreeNode(object):
             if top.left != None:
                 stack.append(top.left)
         return result
+
+    def inorderTraversal(self, root):
+        if root == None:
+            return []
+        stack = []
+        result = []
+        self.putLeftChildren(root,stack)
+        while len(stack) > 0:
+            top = stack.pop()
+            result.append(top.val)
+            self.putLeftChildren(top.right,stack)
+        return result
+
+    def putLeftChildren(self,root,stack):
+        if root == None:
+            return
+        while root != None:
+            stack.append(root)
+            root = root.left
+
+    def postorderTraversal(self, root):
+        if root == None:
+            return []
+        stack = []
+        result = []
+        self.getLeftChild(root, stack)
+        while len(stack) > 0:
+            top = stack.pop()
+            result.append(top.val)
+            if len(stack) > 0 and top == stack[len(stack)-1].left:
+                self.getLeftChild(stack[len(stack)-1].right,stack)
+        return result
+
+    def getLeftChild(self,root,stack):
+        if root == None:
+            return
+        while root != None:
+            stack.append(root)
+            if root.left != None:
+                root = root.left
+            else:
+                root = root.right
+
+
 inorder = [1,2]
 postorder = [2,1]
 root = TreeNode(0)
 root.buildTree_inorder_poster(inorder,postorder)
+
 
