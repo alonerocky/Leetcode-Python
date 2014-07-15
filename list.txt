@@ -19,6 +19,8 @@
 19, Construct Binary Tree from Inorder and Postorder Traversal
 20, Construct Binary Tree from Preorder and Inorder Traversal
 21, Binary Tree Preorder Traversal
+22, Binary Tree Postorder Traversal
+23, Binary Tree Inorder Traversal
 
 next
 Minimum Depth of Binary Tree
@@ -29,8 +31,7 @@ Longest Consecutive Sequence
 Symmetric Tree
 Anagrams
 
-Binary Tree Postorder Traversal
-Binary Tree Inorder Traversal
+
 Binary Tree Zigzag Level Order Traversal
 Binary Tree Level Order Traversal
 Binary Tree Level Order Traversal II
